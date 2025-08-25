@@ -1,455 +1,86 @@
 <!DOCTYPE html>
-<html lang="english">
-  <head>
-    <title>exported project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-theme-neutral-dark);
-        background: var(--dl-color-theme-neutral-light);
-
-        fill: var(--dl-color-theme-neutral-dark);
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./self-check.css" />
-    <div>
-      <link href="./self-check.css" rel="stylesheet" />
-
-      <div class="landing-page-container">
-        <div class="landing-page-frame1">
-          <img
-            src="public/external/rectangle1368356-5n2g.svg"
-            alt="Rectangle1368356"
-            class="landing-page-rectangle136"
-          />
-          <div class="landing-page-footer">
-            <span class="landing-page-text10">
-              Ginhaw.AI does not provide medical diagnosis or treatment. The
-              information and recommendations on this site are for guidance and
-              educational purposes only and are not a substitute for
-              professional healthcare advice.
-            </span>
-            <span class="landing-page-text11">© Ginhaw.AI, 2025</span>
-            <div class="landing-page-info">
-              <div class="landing-page-about">
-                <span class="landing-page-text12">About</span>
-              </div>
-              <div class="landing-page-terms">
-                <span class="landing-page-text13">Terms</span>
-              </div>
-              <div class="landing-page-email">
-                <span class="landing-page-text14">ginhawAIdevs@gmail.com</span>
-              </div>
-            </div>
-            <div class="landing-page-language1">
-              <div class="landing-page-language2">
-                <span class="landing-page-text15">Language:</span>
-              </div>
-              <div class="landing-page-choice1">
-                <span class="landing-page-text16">English ▼</span>
-              </div>
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ginhaw.AI | Self-Check</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <div class="landing-page-container">
+    <header class="landing-page-header">
+      <div class="landing-page-whitebox">
+        <div class="landing-page-content">
+          <div class="landing-page-headerlogo">
+            <img src="public/external/ginhawailogo1i835-598s-200h.png" alt="Ginhaw.AI Logo" class="landing-page-ginhawailogo1">
           </div>
-          <div class="landing-page-sc1">
-            <span class="landing-page-text17">
-              <span>
-                This tool is not a replacement for medical advice, diagnosis, or
-                treatment.
-              </span>
-              <br />
-              <span>
-                If you have a life-threatening emergency, call 911 or your local
-                emergency number.
-              </span>
-            </span>
-          </div>
-          <div class="landing-page-frame32">
-            <span class="landing-page-text21">Ginhaw.AI:</span>
-            <span class="landing-page-text22">Self-Check</span>
-            <span class="landing-page-text23">
-              Answer a few quick questions and our AI will give you a
-              preliminary assessment based on your symptoms and health history.
-            </span>
-          </div>
-          <div class="landing-page-header">
-            <div class="landing-page-whitebox">
-              <div class="landing-page-content">
-                <div class="landing-page-headerlogo">
-                  <img
-                    src="public/external/ginhawailogo1i835-598s-200h.png"
-                    alt="ginhawailogo1I835"
-                    class="landing-page-ginhawailogo1"
-                  />
-                </div>
-                <div class="landing-page-rightcontent">
-                  <div class="landing-page-aboutus">
-                    <span class="landing-page-text24">About Us</span>
-                  </div>
-                  <div class="landing-page-register">
-                    <span class="landing-page-text25">
-                      Register Your Facility
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="landing-page-frame41">
-            <div class="landing-page-frame37">
-              <div class="landing-page-name">
-                <span class="landing-page-text26">Name</span>
-                <div class="landing-page-frame331">
-                  <span class="landing-page-text27">Name</span>
-                </div>
-              </div>
-              <div class="landing-page-genda">
-                <span class="landing-page-text28">
-                  What was your sex assigned at birth?
-                </span>
-                <div class="landing-page-frame31">
-                  <div class="landing-page-frame28">
-                    <div class="landing-page-frame261">
-                      <div class="landing-page-choice2">
-                        <img
-                          src="public/external/rectangle141i835-26dr-200h.png"
-                          alt="Rectangle141I835"
-                          class="landing-page-rectangle1411"
-                        />
-                      </div>
-                      <span class="landing-page-text29">Female</span>
-                    </div>
-                  </div>
-                  <div class="landing-page-frame29">
-                    <div class="landing-page-frame262">
-                      <div class="landing-page-choice3">
-                        <img
-                          src="public/external/rectangle141i835-ep7h-200h.png"
-                          alt="Rectangle141I835"
-                          class="landing-page-rectangle1412"
-                        />
-                      </div>
-                      <span class="landing-page-text30">Male</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="landing-page-age">
-                <span class="landing-page-text31">How old are you?</span>
-                <div class="landing-page-frame332">
-                  <span class="landing-page-text32">Age</span>
-                </div>
-              </div>
-              <div class="landing-page-symptoms">
-                <span class="landing-page-text33">
-                  What symptom is bothering you?
-                </span>
-                <div class="landing-page-frame333">
-                  <div class="landing-page-frame36">
-                    <span class="landing-page-text34">Find Symptoms...</span>
-                    <img
-                      src="public/external/searchi835-bplq.svg"
-                      alt="SearchI835"
-                      class="landing-page-search"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="landing-page-checklist">
-                <span class="landing-page-text35">
-                  Any other details we should know?
-                </span>
-                <div class="landing-page-frame14">
-                  <div class="landing-page-frame121">
-                    <div class="landing-page-check1">
-                      <img
-                        src="public/external/rectangle146i835-lpuk-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1461"
-                      />
-                    </div>
-                    <span class="landing-page-text36">
-                      Previous surgeries (eg. Appendectomy, hysterectomy)
-                    </span>
-                  </div>
-                </div>
-                <div class="landing-page-frame15">
-                  <div class="landing-page-frame122">
-                    <div class="landing-page-check2">
-                      <img
-                        src="public/external/rectangle146i835-iynrh-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1462"
-                      />
-                    </div>
-                    <span class="landing-page-text37">
-                      Current or past conditions (eg. Diabetes, high blood
-                      pressure)
-                    </span>
-                  </div>
-                </div>
-                <div class="landing-page-frame16">
-                  <div class="landing-page-frame123">
-                    <div class="landing-page-check3">
-                      <img
-                        src="public/external/rectangle146i835-l9ym-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1463"
-                      />
-                    </div>
-                    <span class="landing-page-text38">
-                      Lifestyle factors (eg. Smoking, alcohol use)
-                    </span>
-                  </div>
-                </div>
-                <div class="landing-page-frame17">
-                  <div class="landing-page-frame124">
-                    <div class="landing-page-check4">
-                      <img
-                        src="public/external/rectangle146i835-0dw-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1464"
-                      />
-                    </div>
-                    <span class="landing-page-text39">
-                      Reproductive history (eg. Birth control, pregnancy)
-                    </span>
-                  </div>
-                </div>
-                <div class="landing-page-frame18">
-                  <div class="landing-page-frame125">
-                    <div class="landing-page-check5">
-                      <img
-                        src="public/external/rectangle146i835-uzrd-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1465"
-                      />
-                    </div>
-                    <span class="landing-page-text40">Current Medications</span>
-                  </div>
-                </div>
-                <div class="landing-page-frame19">
-                  <div class="landing-page-frame126">
-                    <div class="landing-page-check6">
-                      <img
-                        src="public/external/rectangle146i835-ceg-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1466"
-                      />
-                    </div>
-                    <span class="landing-page-text41">
-                      Family history (eg. Cancer, heart problems)
-                    </span>
-                  </div>
-                </div>
-                <div class="landing-page-frame20">
-                  <div class="landing-page-frame127">
-                    <div class="landing-page-check7">
-                      <img
-                        src="public/external/rectangle146i835-oyyi-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1467"
-                      />
-                    </div>
-                    <span class="landing-page-text42">Skip</span>
-                  </div>
-                </div>
-                <div class="landing-page-frame21">
-                  <div class="landing-page-frame128">
-                    <div class="landing-page-check8">
-                      <img
-                        src="public/external/rectangle146i835-hye-200w.png"
-                        alt="Rectangle146I835"
-                        class="landing-page-rectangle1468"
-                      />
-                    </div>
-                    <span class="landing-page-text43">None of the above</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="landing-page-button-variant4">
-              <span class="landing-page-text44">Submit</span>
-            </button>
+          <div class="landing-page-rightcontent">
+            <button class="link-button">About Us</button>
+            <button class="landing-page-register">Register Your Facility</button>
           </div>
         </div>
       </div>
-    </div>
-  </body>
+    </header>
+
+    <main>
+      <section class="landing-page-frame32">
+        <h1 class="landing-page-text21">Ginhaw.AI:</h1>
+        <h2 class="landing-page-text22">Self-Check</h2>
+        <p class="landing-page-text23">
+          Answer a few quick questions and our AI will give you a preliminary assessment based on your symptoms and health history.
+        </p>
+      </section>
+
+      <form id="selfCheckForm" class="landing-page-frame41">
+        <div class="landing-page-frame37">
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label>What was your sex assigned at birth?</label>
+            <div class="options-box">
+              <label class="option-card"><input type="radio" name="gender" value="Female" required> Female</label>
+              <label class="option-card"><input type="radio" name="gender" value="Male"> Male</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="age">How old are you?</label>
+            <input id="age" name="age" type="number" min="1" max="120" placeholder="Age" required>
+          </div>
+
+          <div class="form-group">
+            <label for="symptom">What symptom is bothering you?</label>
+            <input id="symptom" name="symptom" type="text" placeholder="Type a symptom..." required>
+          </div>
+
+          <div class="form-group">
+            <label>Any other details we should know?</label>
+            <div class="options-box">
+              <label class="option-card"><input type="checkbox" name="details" value="Surgeries"> Previous surgeries</label>
+              <label class="option-card"><input type="checkbox" name="details" value="Conditions"> Past conditions</label>
+              <label class="option-card"><input type="checkbox" name="details" value="Lifestyle"> Lifestyle factors</label>
+              <label class="option-card"><input type="checkbox" name="details" value="Reproductive"> Reproductive history</label>
+              <label class="option-card"><input type="checkbox" name="details" value="Medications"> Current medications</label>
+              <label class="option-card"><input type="checkbox" name="details" value="FamilyHistory"> Family history</label>
+              <label class="option-card"><input type="checkbox" name="details" value="None"> None of the above</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="landing-page-button-variant4">Submit</button>
+      </form>
+    </main>
+
+    <footer class="landing-page-footer">
+      <p>© Ginhaw.AI, 2025</p>
+      <p>ginhawAIdevs@gmail.com</p>
+      <p>Ginhaw.AI does not provide medical diagnosis or treatment. This tool is for guidance only.</p>
+    </footer>
+  </div>
+  <script src="self-check.js"></script>
+</body>
 </html>
